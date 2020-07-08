@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else/switch condition</title>
+</head>
+<body>
+   <script>
+       let age=45;
+       let doesdrive = true;
+       if(age== 21){
+           console.log("hi u r shivi")
+
+       }
+       else if(age==17){
+           console.log("bbye")
+       }
+       else{
+           console.log("byee")
+       }
+    //    const vari = 34 
+       if(typeof vari!=='undefined'){
+           console.log("it is defined");
+
+       }
+       else{
+           console.log("it is defined");
+       }
+       if(doesdrive){
+           console.log("you can drive")
+       }
+       else{
+           console.log("you can not drive")
+        }
+        if(doesdrive && age>18){
+            console.log("you can do anything")
+        }
+        else{
+            console.log("you can not everything")
+        }
+        console.log(age==45?'age is satisfied':'age is not satisfied')
+
+        switch (age) {
+            case 18 :
+                console.log("you are qualified")
+                break;
+            case 45 :
+                console.log("you re over qualified")
+                break;
+            default:
+                console.log("sorry try again later")
+                break;
+        }
+   </script> 
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript type conversions</title>
+</head>
+<body>
+    <script>
+        let name = String(32)
+        console.log(name,typeof name)
+        let booleanvar = String(true)
+        console.log(booleanvar,typeof booleanvar)
+        let date = String(new Date())
+        console.log(date,typeof date)
+        let arr1 = String([1,2,3,4,5])
+        console.log(arr1,typeof arr1)
+        console.log(arr1.length,typeof arr1)
+        let i = 5
+        console.log(i.toString(),typeof i)
+        let marks = Number("2345")
+        console.log(marks,typeof marks)
+
+        let str1 = parseInt('32.5677')
+        console.log(str1)
+        let str2 = parseFloat('32.5677')
+        console.log(str2)
+        console.log(str1.toFixed(2))
+        // type cohercian
+
+        var str4 = "256"
+        let deg = 25
+        console.log(str4+ deg)
+    </script>
+</body>
+</html>

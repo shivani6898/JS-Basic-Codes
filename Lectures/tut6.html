@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String and its properties</title>
+</head>
+<body>
+    <script>
+     let name ="vipin"
+     let greet ="Good Morning"
+     console.log(greet+' '+name)
+     let news
+     news = "Shivi is in good mood "+   
+     "shivi is so blessed nby having god on her side"
+     console.log(news)
+     news= news.concat("its too gr8")
+     console.log(news)
+    //  console.log(news.toLowerCase())
+    //  console.log(news.toUpperCase())
+     console.log(news[2])
+     console.log(news.indexOf("gr8"))
+     console.log(news.lastIndexOf("shivi"))
+     console.log(news.charAt(3))
+     console.log(news.endsWith("gr8"))
+     console.log(news.includes("blessed"))
+     console.log(news.substring(1,5))
+     console.log(news.slice(-4))
+     console.log(news.substring(-4))
+     console.log(news.split(" "))
+     console.log(news.replace("shivi" ,"shubhi"))
+    //  templates
+    let fruit ="mango"
+    let color ="red"
+    let aboutme = `hello ${name}
+                    <h1> this is heading</h1>
+                    <p>i like ${fruit} and my favorite color is ${color}                
+
+    `;
+    document.body.innerHTML = aboutme;
+    </script>
+</body>
+</html>

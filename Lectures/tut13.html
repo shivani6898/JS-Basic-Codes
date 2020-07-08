@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child"><a href="www.google.com">Child 1</a> </div>
+        <div class="child"><a href="www.twiiter.com"> Child 2</a> </div>
+        <div class="child"><a href="www.facebook.com">Child 3</a> </div>
+        <div class="child"><a href="www.tinder.com">Child 4</a> </div>
+    </div>
+    <script>
+        console.log("start")
+        let a = document.links
+        Array.from(a).forEach(function (elements) {
+            if (elements.href.includes("google"))
+            {
+                console.log(elements)
+            }
+            
+        })
+    </script>
+</body>
+</html>
